@@ -34,16 +34,16 @@ h1 {
 	border: 1px solid green;
 	position: absolute;
 	text-align: center;
-	width: 900px;
+	width: 880px;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, 50%);
+	transform: translate(-50%, -50%);
 }
 
 .gridIcon {
 	border: 1px solid red;
 /*	position: absolute;*/
-	margin: 15px 15px;
+	margin: 15px;
 	display: inline-block;
 
 }
