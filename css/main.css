@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'helvetica neue';
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 300;
+}
+
+#header {
+	border: 1px solid blue;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.container {
+	border: 1px solid pink;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.grid {
+	border: 1px solid green;
+	text-align: center;
+	padding: 5% 0;
+}
+
+.gridIcon {
+	border: 1px solid red;
+
+	margin: 15px 15px;
+
+	display: inline-block;
+
+}
+
+.placeHolder {
+	background-color: #EEEEEE;
+	border-radius: 36.4px;
+	width: 180px;
+	height: 180px;
+
+}
+
+.placeHolderSmall {
+	background-color: #EEEEEE;
+	border-radius: 36.4px;
+	width: 100px;
+	height: 100px;
+
+}
