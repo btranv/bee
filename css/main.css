@@ -12,36 +12,100 @@ html, body, .container {
 	
 }
 
-h1 {
-	font-size: 50px;
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2 {
 	font-weight: 300;
 }
 
-#header {
-	border: 1px solid blue;
-	text-align: center;
-	margin-top: 50px;
+h1 {
+	font-size: 52px;
 }
 
+h2{
+	font-size: 22px;
+	color: rgba(0,0,0,0.3);
+}
+
+#nav{
+	padding-top: 11px;
+	/*border: 1px solid green;*/
+	width: 84.375%;
+	position: relative;
+	left: 50%;
+    transform: translate(-50%, 0);	
+}
+
+
+#nav .contact {
+	float: right;
+	font-size: 14px;
+	color: rgba(0,0,0,0.3);
+}
+#nav img {
+	float: right;
+	padding-left: 16px;
+}
+
+#header {
+	position: relative;
+	z-index: 1;
+	/*border: 1px solid blue;*/
+	text-align: center;
+	padding-top: 70px;
+	width: 241px;
+	left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.gridIcon p{
+	padding: 16px 0;
+	font-size: 22px;
+
+}
+
+#footer {
+	/*border: solid 1px yellow;*/
+	/*width: 810px;*/
+	width: 84.375%;
+	position: absolute;
+	padding-bottom: 30px;
+	left: 50%;
+	top: 100%;
+    transform: translate(-50%, -100%);	
+}
+
+#footer h2:nth-child(1)  {
+	float: left;
+}
+
+#footer h2:nth-child(2)  {
+	float: right;
+}
+
+
 .container {
-	border: 1px solid pink;
-	max-width: 960px;
+/*	border: 1px solid pink;
+*/	max-width: 960px;
 	position: relative;
 	margin: 0 auto;
 }
 
 .grid {
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 	position: absolute;
 	text-align: center;
-	width: 880px;
+	width: 91.66667%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
 .gridIcon {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 /*	position: absolute;*/
 	margin: 15px;
 	display: inline-block;
