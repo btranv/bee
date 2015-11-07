@@ -1,50 +1,491 @@
-   <!DOCTYPE html>
-   <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Brian Tran, Product Designer</title>
-        <meta name="description" content="Beez in the trap">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/main.css">
+<html><head>
+    <!-- Google Font API -->
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <!-- This is my css sheet -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <meta name="viewport" content="width=device-width">
+    <title>Brian Tran, Responsive Design Project</title>
 
-    </head>
+</head>
+<body>
 
-    <body>
 <div class="container">
-        <section id="nav">
-            <img src="images/Mail.png"><span class="contact">Contact</span>
-        </section>         
-        <section id="header">
-            <h1>Brian Tran</h1>
-            <h2>Product Designer</h2>
-        </section>      
-        <ul class="grid">
-            <li class="gridIcon"> 
-                <div class="placeHolder"></div>
-                <p>Yass</p>
-            </li> 
-            <li class="gridIcon"> 
-                <div class="placeHolder"></div>
-                <p>Pandora</p>
-            </li> 
-            <li class="gridIcon"> 
-                <div class="placeHolder"></div>
-                <p>Blake Love</p>
-            </li>    
-            <li class="gridIcon"> 
-               <div class="placeHolder"></div>
-               <p>The Runthrough</p>
-            </li>                               
-        </ul>       
-        <section id="footer">
-         <h2>About me</h2>
-         <h2>My Experiments</h2>
-        </section>             
-      
-</div>      
-    </body>
+
+    <div class="nav">
+<!--        <div class="navwrapper">
+        <div class="logo">
+            <div class="outerelement">
+                <div class="innerelement">
+                    <a href="index.html"><img src="images/briantranlogo-inw.jpg"></a>
+
+                </div>
+                <div class="innerelementold">
+                    <a href="index.html"><img src="images/briantranlogo-inwold.jpg"></a>
+                </div>  
+            </div>  
+        
+        </div>
+
+        <div id="contact">
+            <a href="mailto:btranv@gmail.com">Contact Me</a>
+        </div>
+ -->
+    <!-- 817px broken nav begins here-->
+<!--        <div id="breaknav">
+            
+        </div> -->
+
+        <div id="breaknavright">
+                <!-- <ul id="breaknavlinks">
+                <li id="aboutmelink"><a href="index.html">View Works</a></li>   
+                <li id="aboutmelink"><a href="aboutme.html">About Me</a></li>
+                <li id="resumelink"><a href="https://db.tt/blQPES0o" target="_blank">My Resume</a></li>
+                <li id="contactlink"><a href="mailto:btranv@gmail.com">Contact Me</a></li> -->  
+            </ul>   
+                
+        
+        </div>  
+        <!-- end of nav wrap -->
+    </div>
+    <!-- end of nav -->
+    </div>
+
+    <!-- ******************EVERYTHING BELOW THE FOLD OF INDEX.HTML******************-->
+    <!-- ******************Large Feature below the fold begins here******************-->
+    <div id="blbgstorycolor" class="storyabovefold">
+
+
+        <div id="myworkscontainer">
+            <div id="storycontainspace" class="largecontainer">
+
+                <div id="introwrap" class="storybody">
+                <!-- start of story headline container -->
+
+                
+                <div id="blakeloveinfostyle">
+                <p class="beginningworktitle">RelayRides</p>
+                <span class="category">case study, 5 day design sprint</span>
+                <br>
+                <p class="workspace"></p>
+                RelayRides uses the sharing economy to disrupt the global car rental industry.
+                <p>
+                <p class="workspace"></p>
+                <b>Problem:</b> Renters misread or overlook information under "About the Car," causing them to overlook unique car characteristics that could affect their driving experience.</p>
+                <p class="workspace"></p>
+                <b>My Solution:</b> Redesign "About the Car" section to help renters understand unique car characteristics at a glance. </p> 
+                <p class="workspace"></p>
+                <b>Notes:</b> Full disclosure: I don't work at RelayRides. This was an independent exercise that involved reviewing experience samples, exploring solution possibilites, wireframes, visual mockups, and 2 prototypes.</p>               
+                </div>                  
+
+                <div class="headlinecontain">
+                <div id="storyhero">
+                    <div class="heroimage"><img class="largestory" src="images/rr/rrstorycover.jpg">
+                    </div>  
+
+                    <div class="herodescrip">
+                    Mockup of a proposed solution for RelayRides.com's car rental page. 
+                    </div>  
+                <!-- end of story headline container-->
+                </div>
+                <!-- end of story hero -->
+                </div>
+                <!-- end of storybody -->
+                </div>
+
+                <br>
+
+                
+
+                <div class="storybody">
+                    <div class="storyconstrain">
+                    <br>    
+                    <span class="storybodytitle">My Design Process</span>
+                    <br>
+                    <br>
+                    <img src="images/rr/Design-Process.jpg">
+
+                                        
+
+
+                        <hr class="hrs"></hr>   
+                
+                    <span class="storybodytitle">Two Solutions I Designed for the "About the Car" Section</span>
+
+                    
+                    <p class="workspace"></p>   
+                
+                    <p>Both solutions reorganize information and create hierachy in different ways: iconography, color, and information chunking were key strategies.</p> <span class="bodylinks"><a href="https://relayrides.com/suv-rental/hollywood/land-rover-range-rover-sport/29603">Here's the old, existing design for your reference.</a></span>
+                    <br>
+                    <p class="workspace"></p>
+                    <br> 
+                    <p><b>Solution 1</b></p>
+                    <p class="workspace"></p>
+                    <p>This plays off the metaphor of a traffic light; As the user scroll and hits the mid-height of certain divs, the respective child h2 titles will change to a different color. The strategy here anchors on color change and user control of scroll to make the user glance at particular sections.</p>
+
+                    <span class="bodylinks"><a href="images/rr/VisualMockup1.static-stoplightmetaphor.jpg">Here's the visual mockup for solution one.</a></span>
+                    <br>
+                    <br>
+                    <iframe src="//player.vimeo.com/video/102767180?portrait=0&title=0&byline=0&autoplay=1&loop=1" width="700" height="395" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                    <br>
+                    <p class="workspace"></p>
+                
+                    <br>
+                    <p><b>Solution 2</b></p>
+                    <p class="workspace"></p>
+                    <p>This is organized more like a dashboard and makes subtle references to car interface elements like a mileage counter and an automatic shift navigation. This strategy focuses on chunking information to guide the user to specific sections first.</p> 
+                    <span class="bodylinks"><a href="images/rr/VisualMockup2.static-cardashboard.chunking.jpg">Here's the visual mockup for solution two.</a></span>
+                    <br>
+                    <br>
+                    <iframe src="//player.vimeo.com/video/103681660?portrait=0&title=0&byline=0&autoplay=1&loop=1" width="700" height="395" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>  
+                
+                    
+                    <hr class="hrs"></hr>
+                    
+                    </div>  
+
+                    <!-- end of story constrain -->
+
+                    </div>
+
+
+                <div class="storybody">
+                    <div class="storyconstrain">
+                        <br>
+                        <br>
+                        <br>
+                    <p><span class="dropcap">C</span>ars are pretty much like people. Beneath face value, they have unique characteristics that attribute to how they move through life. And similar to people, some personal idiosyncrasies don't mesh well with others. Unfortunately, It's hard to understand this from initial contact, and the realization happens at a much later, inconvenient time. </p>
+                    <br>
+                    <p><b>Renting a car from RelayRides shouldn't be like this.</b> While basic car details are important, renters should also be able to understand unique car characteristics at a glance. Renters need to understand relevant information, so they can find the perfect ride and have a fantastic driving experience.</p>    
+                    <br>
+                    <br>
+                    <br>
+                    <hr class="hrs"></hr>   
+                    
+                            
+                    <img src="images/rr/1Design-Process.jpg">
+                    <!-- <hr class="hrs"></hr> -->
+                    </div>  
+
+                    <!-- end of story constrain -->
+                    </div>
+                
+                    
+
+
+                <div class="storybody">
+                    <div class="storyconstrain">
+                    <br>
+                    <br>
+                                
+                    <span class="storybodytitle">1. Research: Understanding the Problem and Finding Needs</span>
+                    <p class="workspace"></p>
+                    <p>
+                        Initially, I poked around RelayRides.com for fun to get a feel of the experience. When looking for cars, I noticed a diverse and inconsistent range of owner's information under "About the Car." This sparked my curiosity, so I decided to dig deeper.</p>
+                        <br>
+                        <br>
+                        <p class="workspace"></p>
+                        <img src="images/rr/research.jpg">
+                        <p class="workspace"></p>
+
+                    <hr class="hrs"></hr>   
+                    <p><b><span class="storybodytitle"><center>I discovered 5 common themes amongst "About the Car" info with 13 different car owners.</center></span></b></p>
+                    <hr class="hrs"></hr>
+
+
+                    <ul class="bxslider4">
+                        <li><img src="images/rr/theme1.jpg" /></li>
+                        <li><img src="images/rr/theme2.jpg" /></li>
+                        <li><img src="images/rr/theme3.jpg" /></li>
+                        <li><img src="images/rr/theme4.jpg" /></li>
+                        <li><img src="images/rr/theme5.jpg" /></li>
+                    </ul>
+
+                        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Minimalism:</b> Pictures with few or no words? Why did the owner not add more information? </p>
+                        <p class="workspace"></p>
+                        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Car Features Galore:</b> An interesting hack to highlight common and unique ones.<p>
+                        <p class="workspace"></p>
+                        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Buried Bonuses:</b> Unique car information that gets lost in a long paragraph.</p>
+                        <p class="workspace"></p>
+                        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Car Personified:</b> A personal angle that seems to convey the car's personality and its potential use.</p>
+                        <p class="workspace"></p>
+                        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Important Things to Know:</b>The fine print that's clearly important.</p>
+                        <hr class="hrs"></hr>
+                        
+                        <span class="storybodytitle"><center>Serious Questions?</center></span>
+                        <p class="workspace"></p>
+                        
+                        <hr class="hrs"></hr>
+                    
+                        <p><b>Could the current interface for car owners to update "About the Car" information be contributing to this inconsistency?</b></p>
+                        <p class="workspace"></p>
+                        <p>I tried to figure this out by uploading my own car, but I RelayRides told my car was ineligible to be listed. My parents, siblings, and strangers didn't let me test their cars out. So this will have to be addressed at another time...</p>
+                        <br>
+                        <p><b>Could the variation in "About the Car" information affect on how renters feel after their ride?</b></p>
+                        <p class="workspace"></p>
+                        <p>I examined a random sample of 26 rental reviews. My goal was to find patterns and themes in their responses/reactions. While doing this I tried to answer the following questions:</P>
+
+                        <br>
+
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; &nbsp; How do renters feel after their ride?</p>
+                        <p class="workspace"></p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; &nbsp; What are they reacting to the most; why is this important to them? </p> 
+                        <p class="workspace"></p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; &nbsp; What's causing them to feel this way?</p>
+                    
+            
+                        <hr class="hrs"></hr>
+                        <b><span class="storybodytitle"><center>4 Key Findings from Rental Reviews</center> </b></span>
+                        <hr class="hrs"></hr>
+                
+        
+                    <ul class="bxslider4">
+                        <li><img src="images/rr/f1.jpg" /></li>
+                        <li><img src="images/rr/f2.jpg" /></li>
+                        <li><img src="images/rr/f3.jpg" /></li>
+                        <li><img src="images/rr/f4.jpg" /></li>
+                    </ul>
+                        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.</b> Unique perks delight renters.</p>
+                        <p class="workspace"></p>
+                        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.</b> Cars have unique characteristics that affect a renter's driving experience.<p>
+                        <p class="workspace"></p>
+                        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.</b> Level of car cleanliness is important.
+                        </p>
+                        <p class="workspace"></p>
+                        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.</b> Communication is golden.</p>
+                        <hr class="hrs"></hr>
+                        <br>
+                        <br>
+                    
+                        <p class="workspace"></p>
+                        <span class="storybodytitle"><b> <p>My goal was to find evidence of renters neglecting to read or owners failing to list information.</p></b></span> 
+                        <br>
+                        <br>
+                        <p class="workspace"></p>
+                        <hr class="hrs"></hr>
+                        <b><center>3 Key Insights from Mapping 26 Review Samples to the 13 Respective Car Info.</center></b>
+                        <hr class="hrs"></hr>
+            
+                        <img src="images/rr/mappingreviews.jpg">
+                        <br>
+                        <br>                        
+                        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. </b>Delightful Personal "Features" included but sometimes not listed.</p>
+                        <p class="workspace"></p>
+                        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. </b>Renters aren't reading and/or owners aren't listing the right information.</p>
+                        <p class="workspace"></p>
+                        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. </b> No easy way to know if cars are actually clean and their owners are communicative.</p>
+                        <hr class="hrs"></hr>
+                        <br>
+                        <br>
+                        <br>
+                        <span class="storybodytitle">My findings above convinced me that unique car characteristics affect a renter's driving experience. Renters need to understand this information easily and effectively to find the best ride match and have a wonderful drive. </span>
+                        <p class="workspace"></p>
+                        <br>
+                        <p>There's an opportunity to streamline the information presented under "About the Car." The best solutions reduce the risk of discovery by chance, don't drastically alter the current page, and most importantly, allow renters to understand unique car characteristics at a glance.</p>
+                    <br>    
+                    <br>
+                    <br>
+                    <hr class="hrs"></hr>
+                
+                    <img src="images/rr/2Design-Process.jpg">
+                
+                    <br>
+                    </div>  
+
+                    <!-- end of story constrain -->
+                    </div>
+                
+
+
+                    <div class="storybody">
+                    <div class="storyconstrain">    
+                    <br>
+                    <br>                
+                    <span class="storybodytitle">2. Ideation: Finding Solutions</span>
+                    <p class="workspace"></p>
+                    <p>
+                    I began exploring some possible solutions by looking at car related interfaces, popular listing services (ebay and craigslist), and car company sites like Lange Rover, BMW, and Honda. <b>My goal was to find familiar artifacts that displayed dense information at a glance; iconography, color, and chunking were common trends</b>  amongst these artifacts. Then, I quickly sketched some storyboards to visualize narrow and wide situations a car renter could encounter.   
+                    </p>
+                    <br>
+                    <br>
+                    <img src="images/rr/solutionspace.jpg">
+                    <br>
+                    <br>
+                    <br>
+                    <p>Following, I quickly sketched as many design solutions.</p>
+                    <br>
+                    <img src="images/rr/uisketches.jpg">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <hr class="hrs"></hr>
+                    <img src="images/rr/3Design-Process.jpg">
+        
+                    </div>  
+
+                    <!-- end of story constrain -->
+                    </div>                                              
+                                                    
+            
+            
+                    <div class="storybody">
+                    <div class="storyconstrain">
+                    <br>
+                    <br>                    
+                    <span class="storybodytitle">3. Iterate: Wireframe the Best Solutions</span>
+                    <p class="workspace"></p>
+                    <p>
+                    The top sketches were translated to detailed wireframes and I continued to experiment with the information hierarchy. I wanted to see how all the interface elements would look together and if there were going to be any glaring problems when scaling the design. I referenced these with various car renter scenarios. 
+                    </p>
+                    <br>
+                    <br>
+                    <b><p>Wireframe 1</b> plays with the stop and go motif of a traffic light interface, highlighting certain h2 titles on user scroll.</p> 
+                    <br>
+                    <ul class="bxslider45">
+                        <li><img src="images/rr/w1.jpg" /></li>
+                        <li><img src="images/rr/w2.jpg" /></li>
+                        <li><img src="images/rr/w3.jpg" /></li>
+                        <li><img src="images/rr/w4.jpg" /></li>
+                        <li><img src="images/rr/w4.jpg" /></li>
+                    </ul>
+                    
+                    <br>        
+                    <br>            
+                    <b><p>Wireframe 2</b> is organized more like a car dashboard and makes subtle references to familiar car interface elements.</p> 
+
+                    <br>
+                    <ul class="bxslider4">
+                        <li><img src="images/rr/w2.1.jpg" /></li>
+                        <li><img src="images/rr/w2.2.jpg" /></li>
+                        <li><img src="images/rr/w2.3.jpg" /></li>
+                        <li><img src="images/rr/w2.4.jpg" /></li>
+                        <li><img src="images/rr/w2.5.jpg" /></li>
+                        <li><img src="images/rr/w2.6.jpg" /></li>
+                    </ul>
+                    <br>
+                    <hr class="hrs"></hr>
+
+                    <p class="workspace"></p>
+                    <img src="images/rr/4Design-Process.jpg">
+                
+                    </div>  
+
+                    <!-- end of story constrain -->
+                    </div>                                              
+                    <div class="storybody">
+                    <div class="storyconstrain">
+                    <br>
+                    <br>                
+                    <span class="storybodytitle">4. Prototype: Interactive and Rapidly Made</span>
+                    <p class="workspace"></p>
+                    <p>
+
+                    Here are some fleshed out prototypes. I chose to model them <span class="bodylinks"><a href="https://relayrides.com/suv-rental/hollywood/land-rover-range-rover-sport/29603">with the car information in this listing.</a></span>
+                    </p>
+                    <br>
+                    <br>
+                    <p><b>The goal of prototype 1</b> was to quickly create a hi-fidelity model that captured the interactive traffic light metaphor on user scroll. I key framed the animations in Premiere Pro and added video captions with some shorthand jquery, so an engineer could quickly understand the user interaction and make a testable prototype or code to ship. <span class="bodylinks"><a href="images/rr/VisualMockup1.static-stoplightmetaphor.jpg">Check out the large visual mockup here</a></span></p>
+
+                    <br>
+                    <iframe src="//player.vimeo.com/video/102767180?portrait=0&title=0&byline=0" width="700" height="395" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <br>
+                    <br>
+                    <br>
+                    <p><b>The goal of prototype 2</b> was to get a real feel of what the car dashboard/information chunking strategy would be like for a renter while scrolling. <span class="bodylinks"><a href="images/rr/VisualMockup2.static-cardashboard.chunking.jpg">Check out the large visual mockup here</a></span>  </p>
+
+                    <br>
+                    <iframe src="//player.vimeo.com/video/103681660?portrait=0&title=0&byline=0" width="700" height="395" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <br>
+                    <br>
+                    <br>
+                    <hr class="hrs"></hr>
+                    <img src="images/rr/5Design-Process.jpg">
+                
+                    </div>  
+                    </div>  
+
+                    <div class="storybody">
+                    <div class="storyconstrain">
+                    <br>                
+                    <br>
+                    <br>    
+                    <span class="storybodytitle">5. Test for Success</span>
+                    <p class="workspace"></p>
+                    <p>
+                    The next step would be to test these prototypes, evaluate the results, and prototype to test again until results yield user success. 
+                    </p>
+                    <hr class="hrs"></hr>
+                    <br>
+                    <br>
+                    <br>
+                    <p><span class="storybodytitlebig"><b>What would success look like?</b><p></span>
+                    <br>
+                    <p>It's important to note that this design addresses problems beyond user comprehension.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <hr class="hrs"></hr>
+
+                    <p><b>On a macro level,</b></p>
+                    <p>the design should lead to an increase in car rentals and a decrease in contacting car owners (assuming renters use it to inquire about car details and characteristics).</p>
+                    <p class="workspace"></p>
+                    To test the macro goals, I would recommend an A (old design) / B (Solution 1) /C (Solution 2) test and set benchmarks. Or as a better alternative, determine the significance of the three results. 
+                    <br>
+                    <br>
+                    <br>
+                    <p><b>On a micro level,</b></p>
+                    <p>the design should allow a renter to quickly comprehend unique car characteristics. </p>
+                    <p class="workspace"></p> 
+                    To test the micro goals, I would design a well thought out experiment that tests users' comprehension with the new car rental page design.
+                    <p class="workspace"></p> 
+                    <br>
+                    <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; &nbsp;independent variables:</b> Stoplight Solution (prototype 1) and Dashboard Solution (prototype 2) </p>
+                    <p class="workspace"></p> 
+                    <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; &nbsp;dependent variables:</b> time it takes to answer questions correctly (speed in seconds)</p>
+                    <p class="workspace"></p> 
+                    <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; &nbsp;controls:</b> the users; results from testing the original design (use these as the baseline to compare)</p>
+  
+                    
+                    <hr class="hrs"></hr>
+                        
+                    </div>                  
+
+                    <!-- end of story constrain -->
+                    </div>                                              
+            
+
+
+    <!-- ****************** End of .storyabovefold ******************-->
+    </div>  
+
+
+    <!-- ****************** End of .belowfold ******************-->
+    </div>  
+<!-- end of content wrapper -->
+</div>
+<!-- end of container -->
 
 
 
-    </html>
+
+<!-- ****************** JS Scripts for index.html ******************-->
+<!-- jQuery library (served from Google) -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+<!-- script JS -->
+<script src="js/script.js"></script>
+<!-- waypoints js -->
+<script src="js/waypoints.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="css/jquery.bxslider.css" rel="stylesheet">
+<!-- local scroll JS plugin file -->
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/jquery.localScroll.min.js"></script>
+
+
+
+</body></html>
